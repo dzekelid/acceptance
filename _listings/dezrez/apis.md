@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Acceptance
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/acceptance/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Generates a correspondence any parties of the acceptance
+    of an offer.  Uses default values where possible.
+  x-api-slug: apidocumentgenerationofferaccepted-post
+  description: Generates a correspondence any parties of the acceptance of an offer.  uses
+    default values where possible..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/acceptance/master/_listings/dezrez/apidocumentgenerationofferaccepted-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez
